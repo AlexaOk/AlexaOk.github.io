@@ -1,3 +1,5 @@
+
+
 jQuery("#cupcake").fadeOut("slow");
 
 jQuery("#hoverDiv").mouseenter(function(){
@@ -50,4 +52,3 @@ typewriter();
 $(document).ready(function(){
   $('.sidenav').sidenav();
 });
-      
