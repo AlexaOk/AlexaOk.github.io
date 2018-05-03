@@ -1,0 +1,477 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+
+
+/*////////////////////////////////////////*/
+
+html,body{
+  height:100%;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  background-color: #292c2f;
+}
+
+p{
+  color: black;
+}
+
+.p_presentation{
+  color: white;
+}
+
+li{
+  color: black;
+  margin-left: -6%;
+}
+
+
+
+
+/*////// PAGE LOADER ////*/
+
+
+#cupcake{
+  flex-direction:row;
+  -webkit-flex-direction:row;
+  -ms-flex-direction:row;
+  -mos-flex-direction:row;
+  -o-flex-direction:row;
+  justify-content:center;
+  -webkit-justify-content:center;
+  -ms-justify-content:center;
+  height:100%;
+  width:100%;
+  background-color:#ed453c;
+}
+
+.letter{
+  font-size:100px;
+  color:#ffffff;
+  font-family:tahoma;
+}
+
+.box{
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.cupcakeCircle, .cupcakeInner, .cupcakeCore{
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+}
+
+.cupcake, .letter, .cupcakeCircle, .cupcakeInner, .cupcakeCore{
+  flex:none;
+  -webkit-flex:none;
+  -moz-flex:none;
+  -ms-flex:none;
+  -o-flex:none;
+}
+
+.letter, .cupcakeCircle{
+  align-self:center;
+  -webkit-align-self:center;
+  -moz-align-self:center;
+  -o-align-self:center;
+  -ms-align-self:center;
+}
+.cupcakeCircle{
+  align-items:center;
+  -ms-align-items:center;
+  justify-content:center;
+  -ms-justify-content:center;
+  height:100px;
+  width:100px;
+  background-color:#ffffff;
+}
+
+.cupcakeInner{
+  align-self:center;
+  -ms-align-self:center;
+  justify-content:center;
+  -ms-justify-content:center;
+  height:50%;
+  width:50%;
+  background-color:#ed453c;
+  -webkit-animation-name:cupcakeAnimate;
+  -webkit-animation-duration:500ms;
+  -webkit-animation-direction:alternate;
+  -webkit-animation-timing-function:ease-in-out;
+  -webkit-animation-iteration-count:infinite;
+
+}
+.cupcakeCore{
+  align-self:center;
+  -ms-align-self:center;
+  height:25%;
+  width:25%;
+  background-color:white;
+  -webkit-animation-name:coreAnimate;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
+  -webkit-animation-timing-function:ease-in-out;
+  -webkit-animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes cupcakeAnimate{
+  to{ height:90%; width:90%; }
+}
+@keyframes cupcakeAnimate{
+  to{ height:90%; width:90%; }
+}
+
+@-webkit-keyframes coreAnimate{
+  to{ height:90%; width:90%; }
+}
+@keyframes coreAnimate{
+  to{ height:90%; width:90%; }
+}
+
+/* //////BACKGROUNDS///// */
+
+#home {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('../assets/back.jpg');
+  -webkit-clip-path: polygon(100% 0, 100% 93%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 93%, 0 100%, 0 0);
+  min-height: 750px;
+}
+
+#about {
+  background-color: #292c2f;
+  min-height: 750px;
+}
+
+#portfolio {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('../assets/zigzag.jpg');
+  clip-path: polygon(100% 6%, 100% 100%, 0 94%, 0 0);
+  -webkit-clip-path: polygon(100% 6%, 100% 94%, 0 100%, 0 0);
+  min-height: 750px;
+}
+
+/* /////PRENSENTATION PIC////////*/
+.photo{
+  padding-top: 15%;
+  width: 10%;
+  padding-bottom: 10%;
+}
+
+/*////UNDERLINE////*/
+.hr{
+  width: 9.5em;
+}
+
+.projets{
+  color: white;
+}
+
+#hiddenDiv{display:none;}
+
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.img{
+  opacity: 0.87;
+}
+
+.img:hover{
+  opacity:1;
+}
+.white-bg{
+  background-color: rgba(255, 255, 255, 0.4);
+  color : black;
+  padding-top: 3%;
+}
+
+.margin{
+  padding-top: 3%;
+}
+/*////ORANGE FONTS COLORS*/
+.orange-writting{
+  color: #eb3d36 !important;
+}
+.orange-writting2{
+  color: #fb9f88 !important;
+}
+.orange-writting3{
+  color: #fca68f !important;
+}
+
+/*//////////CV BUTTON////*/
+
+.btn-primary-outline {
+  background-color: transparent !important;
+  border-color: white;
+  color:white;
+}
+
+/*////////////////CONTACT FORM//////////////////*/
+
+.padform{
+  padding-top: 8%;
+padding-bottom: 8%;
+}
+
+
+
+
+/*//////PRESENTATION TYPED TEXT*/
+#typedtext{
+  font-family: 'Poppins-Bold';
+  color: white;
+  font-size: 4em;
+}
+
+.coord{
+  font-family: 'Poppins-Bold';
+  color: white;
+  font-size: 1em;
+}
+
+.padprojects{
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #eb3d36;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
+
+
+input:not([type]), input[type="text"]:not(.browser-default), input[type="password"]:not(.browser-default), input[type="email"]:not(.browser-default), input[type="url"]:not(.browser-default), input[type="time"]:not(.browser-default), input[type="date"]:not(.browser-default), input[type="datetime"]:not(.browser-default), input[type="datetime-local"]:not(.browser-default), input[type="tel"]:not(.browser-default), input[type="number"]:not(.browser-default), input[type="search"]:not(.browser-default), textarea.materialize-textarea{
+  border-bottom: 1px solid #fb9f88 !important;
+}
+
+.padinfos{
+  padding-top: 5%;
+}
+
+
+.navbar-fixed{
+  font: 'Cookie';
+}
+
+.sidenav{
+background-color: #292c2f !important;
+}
