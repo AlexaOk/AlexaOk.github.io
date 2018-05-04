@@ -225,10 +225,11 @@ li{
 
 /*//////////CV BUTTON////*/
 
-.btn-primary-outline {
+.btn {
+  /* background-color: red !important; */
   background-color: transparent !important;
-  border-color: white;
-  color:white;
+  /* border-color: white;
+  color:white; */
 }
 
 /*////////////////CONTACT FORM//////////////////*/
