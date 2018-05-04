@@ -5,7 +5,7 @@
 
 /*////////////////////////////////////////*/
 
-html,body{
+html, body{
   height:100%;
   width:100%;
   margin:0px;
@@ -138,9 +138,6 @@ li{
 /* //////BACKGROUNDS///// */
 
 #home {
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
   background-image: url('../assets/back.jpg');
   -webkit-clip-path: polygon(100% 0, 100% 93%, 0 100%, 0 0);
   clip-path: polygon(100% 0, 100% 93%, 0 100%, 0 0);

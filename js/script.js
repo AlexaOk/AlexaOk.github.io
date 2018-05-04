@@ -1,6 +1,6 @@
 
 
-jQuery("#cupcake").fadeOut("slow");
+jQuery("#cupcake").fadeOut("1505");
 
 jQuery("#hoverDiv").mouseenter(function(){
     jQuery("#hiddenDiv").slideDown();
