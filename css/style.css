@@ -83,6 +83,11 @@ span{
   -o-flex:none;
 }
 
+.letter{
+    font-size:100px;
+    color:White;
+    font-family:tahoma;
+}
 .letter, .cupcakeCircle{
   align-self:center;
   -webkit-align-self:center;
